@@ -24,6 +24,8 @@ The relay host can be self-hosted or you can use the public host for free.
 	- Relay host override
 	- Reset to defaults
 
+Ping icons are rendered at runtime in Java (see `PingRenderUtil`), not loaded from separate ping texture files.
+
 ## Requirements
 
 - Java 21
@@ -99,4 +101,3 @@ Ping wheel selection + warning/move ping examples (color is configurable):
 Party menu (default party is code `1`):
 
 ![Party menu](https://cdn.modrinth.com/data/cached_images/d5ea56c6640b7feb8a4d0e47abfb9f17c089d3dc_0.webp)
-
